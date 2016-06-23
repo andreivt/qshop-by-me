@@ -1,49 +1,41 @@
 a {
-  color: white;
+    color: white;
 }
 #hero-banner {
-  background-image: url('assets/images/bg2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  height: 500px;
-  width: 100%;
+    background-image: url('assets/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
 }
-
 #banner-header nav ul li {
     float: left;
     padding: 5px;
     text-decoration: none;
     list-style: none;
 }
-
 #banner-header nav ul li a {
-  text-decoration: none;
+    text-decoration: none;
 }
-
-#banner-header nav ul li a:hover{
-  color: grey;
-  /*text-decoration: underline;*/
+#banner-header nav ul li a:hover {
+    color: grey;
+    /*text-decoration: underline;*/
 }
-
 #banner-header nav {
-  float: right;
-  padding-right: 15px;
+    float: right;
+    padding-right: 15px;
 }
-
 header#banner-header {
     height: 10%;
 }
-
 #banner-header #title {
-  float: left;
-  padding: 15px 0 0 15px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
+    float: left;
+    padding: 15px 0 0 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
-
 #banner-text {
     display: flex;
     align-items: center;
@@ -51,56 +43,47 @@ header#banner-header {
     height: 90%;
     width: 100%;
 }
-
 #banner-text-wrapper {
     text-align: center;
 }
-
 #banner-text #banner-text-wrapper h1 {
-  color: white;
-  background-color: grey;
-  margin: 0;
-  margin-bottom: 30px;
+    color: white;
+    background-color: grey;
+    margin: 0;
+    margin-bottom: 30px;
 }
-
 #banner-text #banner-text-wrapper a {
-  text-decoration: none;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 9px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 9px;
 }
-
 #banner-text #banner-text-wrapper a:hover {
-  background-color: grey;
+    background-color: grey;
 }
-
 #first-section {
-  background-color: dodgerblue;
-  height: 200px;
-  width: 100%;
-  padding-top: 15px;
+    background-color: dodgerblue;
+    height: 200px;
+    width: 100%;
+    padding-top: 15px;
 }
-
 #first-section h1 {
-  margin: 0;
-  font-size: 1em;
-  text-align: center;
-  color: white;
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+    color: white;
 }
-
 #first-section p {
-  text-align: center;
-  color: white;
-  font-size: 0.9em;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
 }
-
 #icons {
     height: 68%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 #icons .icons-icon {
     width: 33%;
     font-size: 45px;
@@ -110,7 +93,6 @@ header#banner-header {
     justify-content: center;
     float: left;
 }
-
 #icons .icons-icon i {
     border: 1px solid white;
     border-radius: 50%;
