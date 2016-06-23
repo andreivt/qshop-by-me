@@ -73,3 +73,52 @@ header#banner-header {
 #banner-text #banner-text-wrapper a:hover {
   background-color: grey;
 }
+
+#first-section {
+  background-color: dodgerblue;
+  height: 200px;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#first-section h1 {
+  margin: 0;
+  font-size: 1em;
+  text-align: center;
+  color: white;
+}
+
+#first-section p {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+}
+
+#icons {
+    height: 68%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#icons .icons-icon {
+    width: 33%;
+    font-size: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+#icons .icons-icon i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
