@@ -1,0 +1,75 @@
+a {
+  color: white;
+}
+#hero-banner {
+  background-image: url('assets/images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 500px;
+  width: 100%;
+}
+
+#banner-header nav ul li {
+    float: left;
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+#banner-header nav ul li a {
+  text-decoration: none;
+}
+
+#banner-header nav ul li a:hover{
+  color: grey;
+  /*text-decoration: underline;*/
+}
+
+#banner-header nav {
+  float: right;
+  padding-right: 15px;
+}
+
+header#banner-header {
+    height: 10%;
+}
+
+#banner-header #title {
+  float: left;
+  padding: 15px 0 0 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 100%;
+}
+
+#banner-text-wrapper {
+    text-align: center;
+}
+
+#banner-text #banner-text-wrapper h1 {
+  color: white;
+  background-color: grey;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+#banner-text #banner-text-wrapper a {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 9px;
+}
+
+#banner-text #banner-text-wrapper a:hover {
+  background-color: grey;
+}
