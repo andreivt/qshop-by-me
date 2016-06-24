@@ -57,9 +57,12 @@ header#banner-header {
     border: 1px solid white;
     border-radius: 5px;
     padding: 9px;
+    background: transparent;
+    transition: all .4s linear;
 }
 #banner-text #banner-text-wrapper a:hover {
-    background-color: grey;
+    background-color: dodgerblue;
+    transition: all .4s linear;
 }
 #first-section {
     background-color: dodgerblue;
@@ -107,16 +110,19 @@ header#banner-header {
 
 footer {
   background-color: grey;
-  font-size: 1.5em;
+  font-size: 2.5em;
+  text-align: center;
+  height: 50px;
 }
 
 #second-section {
-    height: 740px;
+    height: auto;
     width: 100%;
     background-color: darkslategrey;
     color: white;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #images-wrapper {
@@ -126,6 +132,9 @@ footer {
 
 .col img {
     width: 100%;
+    transition: ease-out 0.2s;
+    transform: scale(1);
+    opacity: 1;
 }
 
 .col img:hover {
@@ -143,4 +152,26 @@ footer {
   float: left;
   padding: 15px;
   box-sizing: border-box;
+}
+
+footer a i {
+  transform: rotate(0deg);
+  transition: linear .3s;
+}
+
+footer a i:hover {
+  transform: rotate(180deg);
+  transition: linear .3s;
+}
+
+@media screen and (max-width: 1230px){
+  .col {
+    width: 50%;
+  }
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear:both;
 }
