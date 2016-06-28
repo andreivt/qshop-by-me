@@ -1,5 +1,5 @@
 a {
-    color: white;
+
 }
 #hero-banner {
     background-image: url('assets/images/bg2.jpg');
@@ -10,29 +10,39 @@ a {
     width: 100%;
 }
 #banner-header nav ul li {
-    float: left;
+    /*float: left;*/
     padding: 5px;
     text-decoration: none;
     list-style: none;
 }
+
+#banner-header nav ul li a {
+  color: black;
+}
+
 #banner-header nav ul li a {
     text-decoration: none;
 }
 #banner-header nav ul li a:hover {
-    color: grey;
+    /*color: grey;*/
     /*text-decoration: underline;*/
 }
 #banner-header nav {
     float: right;
-    padding-right: 15px;
+    padding: 15px;
 }
+
+#banner-header .navbar-default {
+  background-color: white;
+}
+
 header#banner-header {
-    height: 10%;
+    height: 91px;
+    color: black;
 }
 #banner-header #title {
     float: left;
-    padding: 15px 0 0 15px;
-    color: white;
+    padding: 15px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -89,7 +99,7 @@ header#banner-header {
 }
 #icons .icons-icon {
     width: 33%;
-    font-size: 45px;
+    font-size: 2em;
     height: 100%;
     display: flex;
     align-items: center;
