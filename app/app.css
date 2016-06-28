@@ -69,6 +69,7 @@ header#banner-header {
     padding: 9px;
     background: transparent;
     transition: all .4s linear;
+    color: white;
 }
 #banner-text #banner-text-wrapper a:hover {
     background-color: dodgerblue;
@@ -119,7 +120,7 @@ header#banner-header {
 }
 
 footer {
-  background-color: grey;
+  /*background-color: grey;*/
   font-size: 2.5em;
   text-align: center;
   height: 50px;
@@ -171,9 +172,9 @@ footer a i:hover {
 }
 
 @media screen and (max-width: 1230px){
-  .col {
+  /*.col {
     width: 50%;
-  }
+  }*/
 }
 
 .group:after {
@@ -183,7 +184,7 @@ footer a i:hover {
 }
 
 .col-image img {
-  margin: 15px;
+  margin-bottom: 15px;
 }
 
 #first-section .row div {
