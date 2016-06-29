@@ -121,7 +121,7 @@ header#banner-header {
 
 footer {
   /*background-color: grey;*/
-  font-size: 2.5em;
+  font-size: 1.5em;
   text-align: center;
   height: 50px;
 }
@@ -189,4 +189,37 @@ footer a i:hover {
 
 #first-section .row div {
   text-align: center;
+}
+
+.upper-text {
+  margin: 15px;
+  font-weight: bold;
+}
+
+.products .thumbnail {
+   padding: 0px;
+   border-radius: 15px 15px 0px 0px;
+   border: 0px;
+}
+
+.products .thumbnail img {
+  border-radius: 15px 15px 0px 0px;
+  transition: ease-out 0.2s;
+  transform: scale(1);
+  opacity: 1;
+}
+
+.products .thumbnail img:hover {
+  transition: ease-out 0.2s;
+  transform: scale(0.97);
+  opacity: 0.7;
+}
+
+.products .caption {
+  font-weight: bold;
+  box-shadow: #e4e4e4 0px 3px 0px;
+}
+
+.products .thumbnail p {
+    font-size: 20px;
 }
