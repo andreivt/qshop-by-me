@@ -43,6 +43,7 @@
     padding: 0px;
     border-radius: 15px 15px 0px 0px;
     border: 0px;
+    position: relative;
 }
 .products .thumbnail img {
     border-radius: 15px 15px 0px 0px;
@@ -81,7 +82,7 @@
 .sold-tag {
     position: absolute;
     top: -25px;
-    right: 0;
+    right: -20px;
     border-radius: 50%;
     font-size: 15px;
     width: 50px;
@@ -89,4 +90,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
+}
+.add-to-cart {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    padding: 5px;
+}
+.thumbnail:hover .add-to-cart {
+    display: block;
 }
