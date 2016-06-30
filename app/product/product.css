@@ -1,0 +1,43 @@
+.first-container {
+  margin-top: 100px;
+}
+
+.add-to-cart-button-minus {
+  vertical-align: top;
+  border-radius: 10px 0px 0px 10px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.add-to-cart-button-plus {
+  vertical-align: top;
+  border-radius: 0px 10px 10px 0px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.add-to-cart-input {
+    width: 50px;
+    display: inline;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.margin-fix {
+  margin-top: 50px;
+}
+
+footer {
+    /*background-color: grey;*/
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+}
+
+.first-container .row .col-md-6 .carousel .carousel-inner .item img {
+  width: 100%;
+}
