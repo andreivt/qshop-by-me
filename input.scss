@@ -6,3 +6,22 @@
 #sidebar {
   width: $width;
 }
+
+.tab-content {
+  height: auto;
+  p, .table {
+    color: white;
+  }
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+
+  &.red {
+    color: red;
+  }
+  &.green {
+    color: green;
+  }
+}
