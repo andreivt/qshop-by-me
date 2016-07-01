@@ -1,0 +1,82 @@
+#hero-banner {
+    background-image: url('assets/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+#banner-header{
+  height: 91px;
+  color: black;
+  nav {
+    float:right;
+    padding: 15px;
+  }
+  nav ul li {
+    padding: 5px;
+    text-decoration: none;
+    list-style: none;
+    & a{
+      color: black;
+      text-decoration: none;
+    }
+  }
+  .navbar-default {
+    background-color: white;
+  }
+}
+
+#title {
+  float: left;
+  padding: 15px;
+  font : {
+    size: 20px;
+    weight: bold;
+  }
+}
+
+#banner-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 100%;
+}
+#banner-text-wrapper {
+  text-align: center;
+  h1 {
+    color: white;
+    background-color: grey;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  a {
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 9px;
+    background: transparent;
+    transition: all .4s linear;
+    color: white;
+  }
+  a:hover {
+    background-color: dodgerblue;
+    transition: all .4s linear;
+  }
+}
+footer {
+  font-size: 1.5em;
+  text-align: center;
+  height: 50px;
+  margin-top: 50px;
+  & a i {
+    transform: rotate(0deg);
+    transition: linear .3s;
+  }
+  & a i:hover {
+    transform: rotate(180deg);
+    transition: linear .3s;
+  }
+}

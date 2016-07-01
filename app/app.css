@@ -1,74 +1,3 @@
-a {}
-#hero-banner {
-    background-image: url('assets/images/bg2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    width: 100%;
-}
-#banner-header nav ul li {
-    /*float: left;*/
-    padding: 5px;
-    text-decoration: none;
-    list-style: none;
-}
-#banner-header nav ul li a {
-    color: black;
-}
-#banner-header nav ul li a {
-    text-decoration: none;
-}
-#banner-header nav ul li a:hover {
-    /*color: grey;*/
-    /*text-decoration: underline;*/
-}
-#banner-header nav {
-    float: right;
-    padding: 15px;
-}
-#banner-header .navbar-default {
-    background-color: white;
-}
-header#banner-header {
-    height: 91px;
-    color: black;
-}
-#banner-header #title {
-    float: left;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: bold;
-}
-#banner-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    width: 100%;
-}
-#banner-text-wrapper {
-    text-align: center;
-}
-#banner-text #banner-text-wrapper h1 {
-    color: white;
-    background-color: grey;
-    margin: 0;
-    margin-bottom: 30px;
-}
-#banner-text #banner-text-wrapper a {
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 9px;
-    background: transparent;
-    transition: all .4s linear;
-    color: white;
-}
-#banner-text #banner-text-wrapper a:hover {
-    background-color: dodgerblue;
-    transition: all .4s linear;
-}
 #first-section {
     background-color: dodgerblue;
     height: 200px;
@@ -112,12 +41,6 @@ header#banner-header {
     align-items: center;
     color: white;
 }
-footer {
-    /*background-color: grey;*/
-    font-size: 1.5em;
-    text-align: center;
-    height: 50px;
-}
 #second-section {
     height: auto;
     width: 100%;
@@ -147,14 +70,6 @@ footer {
     float: left;
     padding: 15px;
     box-sizing: border-box;
-}
-footer a i {
-    transform: rotate(0deg);
-    transition: linear .3s;
-}
-footer a i:hover {
-    transform: rotate(180deg);
-    transition: linear .3s;
 }
 @media screen and (max-width: 1230px) {
     /*.col {

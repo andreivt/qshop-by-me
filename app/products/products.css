@@ -1,43 +1,9 @@
-#hero-banner {
-    background-image: url('../assets/images/bg2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    width: 100%;
-}
-#banner-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    width: 100%;
-}
-#banner-text-wrapper {
-    text-align: center;
-}
-#banner-text #banner-text-wrapper h1 {
-    color: white;
-    background-color: grey;
-    margin: 0;
-    margin-bottom: 30px;
-}
-#banner-text #banner-text-wrapper a {
-    text-decoration: none;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 9px;
-    background: transparent;
-    transition: all .4s linear;
-    color: white;
-}
-#banner-text #banner-text-wrapper a:hover {
-    background-color: dodgerblue;
-    transition: all .4s linear;
-}
 .upper-text {
     margin: 15px;
     font-weight: bold;
+}
+.products {
+    margin-top: 15px;
 }
 .products .thumbnail {
     padding: 0px;
@@ -47,23 +13,26 @@
 }
 .products .thumbnail img {
     border-radius: 15px 15px 0px 0px;
-    transition: ease-out 0.2s;
+    transition: ease-out .2s;
     transform: scale(1);
     opacity: 1;
 }
 .products .thumbnail img:hover {
-    transition: ease-out 0.2s;
+    transition: ease-out .2s;
     transform: scale(0.97);
     opacity: 0.7;
+}
+.products .thumbnail p {
+    font-size: 20px;
+}
+.products .thumbnail:hover .add-to-cart {
+    display: block;
 }
 .products .caption {
     font-weight: bold;
     box-shadow: #e4e4e4 0px 3px 0px;
     background-color: #fdfdfd;
     border-radius: 0px 0px 15px 15px;
-}
-.products .thumbnail p {
-    font-size: 20px;
 }
 #right-side {
     padding: 0px;
@@ -102,6 +71,5 @@
     border-radius: 15px 15px 0px 0px;
     padding: 5px;
 }
-.thumbnail:hover .add-to-cart {
-    display: block;
-}
+
+/*# sourceMappingURL=products.css.map */

@@ -28,12 +28,6 @@
 .margin-fix {
     margin-top: 50px;
 }
-footer {
-    /*background-color: grey;*/
-    font-size: 1.5em;
-    text-align: center;
-    height: 50px;
-}
 .first-container .row .col-md-6 .carousel .carousel-inner .item img {
     width: 100%;
 }
