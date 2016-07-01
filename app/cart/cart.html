@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Summer internship</title>
+    <link rel="stylesheet" type="text/css" href="../normalize.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="../common.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body id="top">
+    <header id="banner-header">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="btn btn-default btn-lg navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavBar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a href="../contact/contact.html">Contact</a></li>
+                        <li><a href="../login/login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <h1>Shopping cart</h1>
+            <div class="col-sm-12">
+              <table class="table table-fix">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="../assets/images/products/product-1.jpg" class="img-thumbnail"></td>
+                    <td>Photo</td>
+                    <td>$150</td>
+                    <td>
+                      <button class="btn add-to-cart-button-minus">-</button>
+                      <input class="form-control add-to-cart-input" type="text" value="1">
+                      <button class="btn add-to-cart-button-plus">+</button>
+                    </td>
+                    <td>$150</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../assets/images/products/product-2.jpg" class="img-thumbnail"></td>
+                    <td>Painting</td>
+                    <td>$100</td>
+                    <td>
+                      <button class="btn add-to-cart-button-minus">-</button>
+                      <input class="form-control add-to-cart-input" type="text" value="2">
+                      <button class="btn add-to-cart-button-plus">+</button>
+                    </td>
+                    <td>$200</td>
+                  </tr>
+                  <tr>
+                    <td><img src="../assets/images/products/product-1.jpg" class="img-thumbnail"></td>
+                    <td>Illustration</td>
+                    <td>$30</td>
+                    <td>
+                      <button class="btn add-to-cart-button-minus">-</button>
+                      <input class="form-control add-to-cart-input" type="text" value="1">
+                      <button class="btn add-to-cart-button-plus">+</button>
+                    </td>
+                    <td>$30</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button type="submit" class="btn update-btn">Update cart</button>
+            </div>
+            <div class="col-sm-6">
+              <h2>Calculate shipping</h2>
+              <form action="">
+                <div class="form-group">
+                  <label for="country">Country</label>
+                  <select class="form-control" name="country" id="country">
+                    <option value="0">Select your option</option>
+                    <option value="romania">Romania</option>
+                    <option value="sua">SUA</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="city">City</label>
+                      <input type="text" class="form-control" id="city" placeholder="Bucharest">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <label for="zip">Zip Code</label>
+                      <input type="number" class="form-control" id="zip">
+                    </div>
+                  </div>
+                </div>
+
+
+                <button type="submit" class="btn update-btn">Update totals</button>
+              </form>
+            </div>
+            <div class="col-sm-6">
+              <h2>Cart Total</h2>
+              <table class="table table-cart-total">
+                <tbody>
+                  <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$650</td>
+                  </tr>
+                  <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                  </tr>
+                  <tr>
+                    <td>Order Total</td>
+                    <td>$650</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <strong>Copyright &copy 2016 Summer fun</strong>
+        <a href="#top"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
+    </footer>
+
+</body>
+
+</html>

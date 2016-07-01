@@ -40,19 +40,18 @@
   #banner-text-wrapper h1 {
     color: white;
     background-color: grey;
-    margin: 0;
-    margin-bottom: 30px; }
+    margin: 0 0 30px; }
   #banner-text-wrapper a {
     text-decoration: none;
     border: 1px solid white;
     border-radius: 5px;
     padding: 9px;
     background: transparent;
-    transition: all .4s linear;
+    transition: all 0.4s linear;
     color: white; }
   #banner-text-wrapper a:hover {
     background-color: dodgerblue;
-    transition: all .4s linear; }
+    transition: all 0.4s linear; }
 
 footer {
   font-size: 1.5em;
@@ -61,9 +60,33 @@ footer {
   margin-top: 50px; }
   footer a i {
     transform: rotate(0deg);
-    transition: linear .3s; }
+    transition: linear 0.3s; }
   footer a i:hover {
     transform: rotate(180deg);
-    transition: linear .3s; }
+    transition: linear 0.3s; }
+
+.add-to-cart-button-minus {
+  vertical-align: top;
+  border-radius: 10px 0 0 10px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  line-height: 20px; }
+
+.add-to-cart-button-plus {
+  vertical-align: top;
+  border-radius: 0 10px 10px 0;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  line-height: 20px; }
+
+.add-to-cart-input {
+  width: 50px;
+  display: inline;
+  border-radius: 0;
+  text-align: center;
+  margin-left: -5px;
+  margin-right: -5px; }
 
 /*# sourceMappingURL=common.css.map */

@@ -1,0 +1,26 @@
+img.img-thumbnail {
+    width: 40%;
+}
+
+.table-fix>thead:first-child>tr:first-child>th {
+    width: 15%;
+}
+.table-fix>tbody>tr>td {
+  vertical-align: middle;
+  border-top: none;
+}
+.table-fix>tbody>tr {
+  border-bottom: 1px solid #ddd;
+}
+.table-cart-total>tbody>tr>td:first-child {
+  font-weight: bold;
+}
+.table-cart-total>tbody>tr:last-child>td:last-child {
+  font-size: 22px;
+  color: orangered;
+}
+.update-btn {
+  background-color: orangered;
+  color: white;
+  float: right;
+}
