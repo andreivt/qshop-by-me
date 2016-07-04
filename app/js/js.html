@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script>
+  var obiect = {
+    a:1,
+    b:2
+  }
+  function sum(obiect){
+    obiect.c = obiect.a + obiect.b;
+  }
+  function sum2(a,b){
+    return a+b;
+  }
+  function sumRound(a,b,round){
+    var result = a+b;
+    if(round)
+      return Math.ceil(result);
+    return result;
+  }
+  function sumRound2(a,b,round){
+    var result = a+b;
+    switch (round) {
+      case 'yes':
+      case undefined:
+        return Math.ceil(result);
+      default:
+        return result;
+    }
+  }
+  function sumRound3(a,b,round){
+    var result = a+b;
+    var willRound = round || 'yes';
+    console.log(willRound);
+    if(willRound === 'yes')
+      return Math.ceil(result);
+    return result;
+  }
+  function sumRound4(a,b,round) {
+    var result = a+b;
+    var willRound = round || 'yes';
+    return willRound === 'yes' ? Math.ceil(result) : result;
+  }
+  var a = {   0:1,
+              1:2,
+              2:3,
+              length: 3
+          };
+  function altaFunctie() {
+    for(var i=0;i<a.length;i++) {
+      if(i==2) {
+        var b = 56;
+      }
+      console.log(a[i]);
+    }
+    console.log(i, b);
+  }
+  function alta(a,b,cb){
+    var result = a+b;
+    setTimeout(function(){
+      cb(result)
+    },500);
+  }
+  // var a = 1.2;
+  // var b = 1.3;
+  // console.log(sumRound(a,b));
+  // console.log(sumRound(a,b,false));
+  // console.log(sumRound(a,b,true));
+  // console.log(sum2(1));
+  // sum(obiect);
+  // console.log(obiect);
+  // console.log(sumRound2(a,b));
+  // console.log(sumRound2(a,b,'no'));
+  // console.log(sumRound2(a,b,'yes'));
+  // console.log(sumRound3(a,b,false));
+  // console.log(sumRound3(a,b,'no'));
+  // console.log(sumRound3(a,b,'yes'));
+  // console.log(sumRound4(a,b,false));
+  // console.log(sumRound4(a,b,'no'));
+  // console.log(sumRound4(a,b,'yes'));
+  // altaFunctie();
+  // console.log(a.length, i);
+  alta(1,2, function(result){
+    console.log(result);
+  });
+  console.log('test');
+</script>
+</head>
+
+<body>
+
+</body>
+
+</html>
